@@ -1,0 +1,33 @@
+.parent{
+
+    padding: 25px;
+    background-color: blanchedalmond;
+    display: flex;
+    gap: 30px;
+    /* justify-content: center; */
+    /* justyfy-content property x axis borabor section golake allign kore */
+
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    height: 350px;
+    /* align-items are used for alligning the child element in Y Axis [allign-item: stretch; is by default] */
+    align-items: center;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap ;
+    /* upor niche thik kore sajanor jonno flex  wrap use kora hoy jeno page er width er theke bair hoia na jay 
+     */
+}
+
+.child{
+
+    border: 2px solid rgb(15,158,160);
+    background-color: rgb(178 , 228, 229);
+    padding: 20px;
+    font-size: 28px;
+    margin: 10px 0;
+     
+
+}
